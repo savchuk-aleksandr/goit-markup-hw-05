@@ -295,11 +295,15 @@
     background-color: transparent;
 }
 .icon-clients:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
 }
 .logo-clients {
-    display: block;
+    
     fill: var(--primary-icon-color);
 }
 .logo-clients:hover {
